@@ -16,9 +16,10 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           {/* Logo - Left aligned */}
           <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <span className="text-indigo-500 text-xl font-bold">EcoTracker</span>
+          <Link to={"/home"}>  <div className="flex-shrink-0 cursor-pointer">
+              <span className="text-indigo-500 text-xl font-bold  ">EcoTracker</span>
             </div>
+            </Link>
           </div>
           
           {/* Main Navigation - Center aligned */}

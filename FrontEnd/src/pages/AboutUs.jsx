@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Navbar from "../components/navBar";
+import photo from '../assets/photo.jpg';
 
 // Custom SVG icons to replace lucide-react
 const IconArrowRight = () => (
@@ -65,13 +66,13 @@ export default function AboutUs() {
                 </a>
               </div>
             </div>
-            <div className="rounded-xl overflow-hidden">
-              <img 
-                src="/api/placeholder/600/400" 
-                alt="Our team monitoring carbon data"
-                className="w-full h-full object-cover"
-              />
-            </div>
+<div className="rounded-xl overflow-hidden">
+  <img 
+    src={photo} 
+    alt="team grid"
+    className="w-full h-full object-cover"
+  />
+</div>
           </div>
 
           {/* Our Approach */}

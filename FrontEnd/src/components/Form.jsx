@@ -98,7 +98,7 @@ const SustainabilityDataForm = () => {
       };
       
       // Send data to API
-      const response = await fetch('http://10.160.195.20:8000/calculate-emissions/', {
+      const response = await fetch('http://localhost:8000/calculate-emissions/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
