@@ -1,0 +1,10 @@
+/* In App.css or Formpage.css */
+.formpage-container {
+    /* background: #000; */
+    background-image: url('https://cdn.vectorstock.com/i/500p/32/62/city-air-pollution-chimneys-of-power-energy-vector-42923262.jpg'); /* Update with your actual image file name */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ensures full viewport height */
+    max-height: 100vh;
+  }
